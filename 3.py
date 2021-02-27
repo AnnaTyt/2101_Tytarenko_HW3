@@ -19,6 +19,10 @@ for i in input_list:
         count_first += 1
     else:
         continue
+# ====================================================================
+# in this case we don't need else statement. for will do it for us :)     
+# ====================================================================
+
 for j in input_list:
     if j % input_list[-1] == 0:
         count_last += 1
